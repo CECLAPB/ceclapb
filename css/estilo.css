@@ -1,0 +1,152 @@
+h1{
+    font-size: 50px;
+    color: #FFF;
+    font-family: TW cen MT;
+    font-style: italic;
+}
+h2 {
+    padding: 5px;
+    margin: 0;
+    padding-left: 0px;
+    color: black;
+    text-shadow: 0 0 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+h3{
+    font-size: 35px;
+    color: #FFF;
+    font-family: TW cen MT;
+    font-style: italic;
+}
+
+h5 {
+    font-size: 20px;
+    color: #FFF;
+    font-family: TW cen MT;
+    font-style: normal;
+}
+h6 {
+    color: cornflowerblue;
+}
+h9 {
+    font-size: 20px;
+    color: #FFF;
+    font-family: TW cen MT;
+    font-style: normal;
+}
+
+p {
+    color: black;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+#logocecla {
+    width: 750px;
+}
+header {
+    
+    min-height: 100px;
+    padding: 10px 0px 0px 0px;
+}
+
+#band {
+    width: 10px;
+}
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    font-size: 1.3em;
+    font-style: italic;
+    color: black;
+    columns: 1;
+}
+
+aside2 > ul {
+    list-style-type: '\2299\00A0';
+    list-style-position: inside;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: black;
+    columns: 1;
+}
+
+.left-side {
+    min-width: 280px;
+}
+.back-ground {
+    background-color: #f4b176;
+    padding: 15px;
+}
+
+.bolet-side {
+    min-width: 180px;
+}
+.back-white {
+    background-color: white;
+}
+.back-black {
+    background-color: black;
+}
+.back-blue {
+    background-color: blue;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;    
+}
+
+.rounded-25 {
+    border-radius: 15px;
+}
+.left-rounded-25 {
+    border-bottom-left-radius: 15px;
+}
+.right-rounded-25 {
+    border-bottom-right-radius: 15px;
+}
+.hnews {
+    font-family: Arial, Helvetica;
+    color: cornflowerblue;
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+div.video {
+    background-color: white;
+    margin: 0px 0px -25px 0px;
+    padding: 10px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;   
+}
+
+
+@media  (max-width: 991.98px) { 
+    
+    
+    h1 {
+        font-size: 35px;
+    }
+
+}
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>redirecionando em <span class="count">5</span></h1>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    
+    <script>
+    
+    count = $('.count');
+    flag = 5;
+        
+    setInterval(function(){ 
+        flag--;
+        count.html(flag); 
+        
+        if(flag == 0) {
+            window.location = "https://google.com";
+        }
+    
+    }, 1000);
+
+    
+    </script>
+
+
+</body>
+</html>
